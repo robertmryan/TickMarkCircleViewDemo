@@ -13,26 +13,35 @@
 		8332258D2502A7720073E5B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8332258B2502A7720073E5B9 /* Main.storyboard */; };
 		8332258F2502A7740073E5B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8332258E2502A7740073E5B9 /* Assets.xcassets */; };
 		833225922502A7740073E5B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833225902502A7740073E5B9 /* LaunchScreen.storyboard */; };
-		8332259D2502A7740073E5B9 /* TickMarkCircleViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8332259C2502A7740073E5B9 /* TickMarkCircleViewDemoTests.swift */; };
-		833225A82502A7740073E5B9 /* TickMarkCircleViewDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833225A72502A7740073E5B9 /* TickMarkCircleViewDemoUITests.swift */; };
+		833225BE2502A7CE0073E5B9 /* TickMarkCircleViewDemoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 833225BC2502A7CE0073E5B9 /* TickMarkCircleViewDemoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		833225C12502A7CE0073E5B9 /* TickMarkCircleViewDemoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 833225BA2502A7CE0073E5B9 /* TickMarkCircleViewDemoKit.framework */; };
+		833225C22502A7CE0073E5B9 /* TickMarkCircleViewDemoKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 833225BA2502A7CE0073E5B9 /* TickMarkCircleViewDemoKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		833225C82502A8030073E5B9 /* TickMarkCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833225C72502A8030073E5B9 /* TickMarkCircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		833225992502A7740073E5B9 /* PBXContainerItemProxy */ = {
+		833225BF2502A7CE0073E5B9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8332257A2502A7720073E5B9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 833225812502A7720073E5B9;
-			remoteInfo = TickMarkCircleViewDemo;
-		};
-		833225A42502A7740073E5B9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8332257A2502A7720073E5B9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 833225812502A7720073E5B9;
-			remoteInfo = TickMarkCircleViewDemo;
+			remoteGlobalIDString = 833225B92502A7CE0073E5B9;
+			remoteInfo = TickMarkCircleViewDemoKit;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		833225C62502A7CE0073E5B9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				833225C22502A7CE0073E5B9 /* TickMarkCircleViewDemoKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		833225822502A7720073E5B9 /* TickMarkCircleViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TickMarkCircleViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,12 +52,12 @@
 		8332258E2502A7740073E5B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		833225912502A7740073E5B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		833225932502A7740073E5B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		833225982502A7740073E5B9 /* TickMarkCircleViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TickMarkCircleViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8332259C2502A7740073E5B9 /* TickMarkCircleViewDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickMarkCircleViewDemoTests.swift; sourceTree = "<group>"; };
-		8332259E2502A7740073E5B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		833225A32502A7740073E5B9 /* TickMarkCircleViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TickMarkCircleViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		833225A72502A7740073E5B9 /* TickMarkCircleViewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickMarkCircleViewDemoUITests.swift; sourceTree = "<group>"; };
-		833225A92502A7740073E5B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		833225BA2502A7CE0073E5B9 /* TickMarkCircleViewDemoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TickMarkCircleViewDemoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		833225BC2502A7CE0073E5B9 /* TickMarkCircleViewDemoKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TickMarkCircleViewDemoKit.h; sourceTree = "<group>"; };
+		833225BD2502A7CE0073E5B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		833225C72502A8030073E5B9 /* TickMarkCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickMarkCircleView.swift; sourceTree = "<group>"; };
+		833225C92502C7390073E5B9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		833225CA2502C7460073E5B9 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,17 +65,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				833225C12502A7CE0073E5B9 /* TickMarkCircleViewDemoKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		833225952502A7740073E5B9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		833225A02502A7740073E5B9 /* Frameworks */ = {
+		833225B72502A7CE0073E5B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -79,9 +82,10 @@
 		833225792502A7720073E5B9 = {
 			isa = PBXGroup;
 			children = (
+				833225C92502C7390073E5B9 /* README.md */,
+				833225CA2502C7460073E5B9 /* LICENSE.md */,
 				833225842502A7720073E5B9 /* TickMarkCircleViewDemo */,
-				8332259B2502A7740073E5B9 /* TickMarkCircleViewDemoTests */,
-				833225A62502A7740073E5B9 /* TickMarkCircleViewDemoUITests */,
+				833225BB2502A7CE0073E5B9 /* TickMarkCircleViewDemoKit */,
 				833225832502A7720073E5B9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				833225822502A7720073E5B9 /* TickMarkCircleViewDemo.app */,
-				833225982502A7740073E5B9 /* TickMarkCircleViewDemoTests.xctest */,
-				833225A32502A7740073E5B9 /* TickMarkCircleViewDemoUITests.xctest */,
+				833225BA2502A7CE0073E5B9 /* TickMarkCircleViewDemoKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,25 +113,28 @@
 			path = TickMarkCircleViewDemo;
 			sourceTree = "<group>";
 		};
-		8332259B2502A7740073E5B9 /* TickMarkCircleViewDemoTests */ = {
+		833225BB2502A7CE0073E5B9 /* TickMarkCircleViewDemoKit */ = {
 			isa = PBXGroup;
 			children = (
-				8332259C2502A7740073E5B9 /* TickMarkCircleViewDemoTests.swift */,
-				8332259E2502A7740073E5B9 /* Info.plist */,
+				833225BC2502A7CE0073E5B9 /* TickMarkCircleViewDemoKit.h */,
+				833225BD2502A7CE0073E5B9 /* Info.plist */,
+				833225C72502A8030073E5B9 /* TickMarkCircleView.swift */,
 			);
-			path = TickMarkCircleViewDemoTests;
-			sourceTree = "<group>";
-		};
-		833225A62502A7740073E5B9 /* TickMarkCircleViewDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				833225A72502A7740073E5B9 /* TickMarkCircleViewDemoUITests.swift */,
-				833225A92502A7740073E5B9 /* Info.plist */,
-			);
-			path = TickMarkCircleViewDemoUITests;
+			path = TickMarkCircleViewDemoKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		833225B52502A7CE0073E5B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833225BE2502A7CE0073E5B9 /* TickMarkCircleViewDemoKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		833225812502A7720073E5B9 /* TickMarkCircleViewDemo */ = {
@@ -138,51 +144,35 @@
 				8332257E2502A7720073E5B9 /* Sources */,
 				8332257F2502A7720073E5B9 /* Frameworks */,
 				833225802502A7720073E5B9 /* Resources */,
+				833225C62502A7CE0073E5B9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				833225C02502A7CE0073E5B9 /* PBXTargetDependency */,
 			);
 			name = TickMarkCircleViewDemo;
 			productName = TickMarkCircleViewDemo;
 			productReference = 833225822502A7720073E5B9 /* TickMarkCircleViewDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		833225972502A7740073E5B9 /* TickMarkCircleViewDemoTests */ = {
+		833225B92502A7CE0073E5B9 /* TickMarkCircleViewDemoKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 833225AF2502A7740073E5B9 /* Build configuration list for PBXNativeTarget "TickMarkCircleViewDemoTests" */;
+			buildConfigurationList = 833225C32502A7CE0073E5B9 /* Build configuration list for PBXNativeTarget "TickMarkCircleViewDemoKit" */;
 			buildPhases = (
-				833225942502A7740073E5B9 /* Sources */,
-				833225952502A7740073E5B9 /* Frameworks */,
-				833225962502A7740073E5B9 /* Resources */,
+				833225B52502A7CE0073E5B9 /* Headers */,
+				833225B62502A7CE0073E5B9 /* Sources */,
+				833225B72502A7CE0073E5B9 /* Frameworks */,
+				833225B82502A7CE0073E5B9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8332259A2502A7740073E5B9 /* PBXTargetDependency */,
 			);
-			name = TickMarkCircleViewDemoTests;
-			productName = TickMarkCircleViewDemoTests;
-			productReference = 833225982502A7740073E5B9 /* TickMarkCircleViewDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		833225A22502A7740073E5B9 /* TickMarkCircleViewDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 833225B22502A7740073E5B9 /* Build configuration list for PBXNativeTarget "TickMarkCircleViewDemoUITests" */;
-			buildPhases = (
-				8332259F2502A7740073E5B9 /* Sources */,
-				833225A02502A7740073E5B9 /* Frameworks */,
-				833225A12502A7740073E5B9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				833225A52502A7740073E5B9 /* PBXTargetDependency */,
-			);
-			name = TickMarkCircleViewDemoUITests;
-			productName = TickMarkCircleViewDemoUITests;
-			productReference = 833225A32502A7740073E5B9 /* TickMarkCircleViewDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
+			name = TickMarkCircleViewDemoKit;
+			productName = TickMarkCircleViewDemoKit;
+			productReference = 833225BA2502A7CE0073E5B9 /* TickMarkCircleViewDemoKit.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -196,13 +186,9 @@
 					833225812502A7720073E5B9 = {
 						CreatedOnToolsVersion = 12.0;
 					};
-					833225972502A7740073E5B9 = {
+					833225B92502A7CE0073E5B9 = {
 						CreatedOnToolsVersion = 12.0;
-						TestTargetID = 833225812502A7720073E5B9;
-					};
-					833225A22502A7740073E5B9 = {
-						CreatedOnToolsVersion = 12.0;
-						TestTargetID = 833225812502A7720073E5B9;
+						LastSwiftMigration = 1200;
 					};
 				};
 			};
@@ -220,8 +206,7 @@
 			projectRoot = "";
 			targets = (
 				833225812502A7720073E5B9 /* TickMarkCircleViewDemo */,
-				833225972502A7740073E5B9 /* TickMarkCircleViewDemoTests */,
-				833225A22502A7740073E5B9 /* TickMarkCircleViewDemoUITests */,
+				833225B92502A7CE0073E5B9 /* TickMarkCircleViewDemoKit */,
 			);
 		};
 /* End PBXProject section */
@@ -237,14 +222,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		833225962502A7740073E5B9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		833225A12502A7740073E5B9 /* Resources */ = {
+		833225B82502A7CE0073E5B9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -264,34 +242,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		833225942502A7740073E5B9 /* Sources */ = {
+		833225B62502A7CE0073E5B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8332259D2502A7740073E5B9 /* TickMarkCircleViewDemoTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8332259F2502A7740073E5B9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				833225A82502A7740073E5B9 /* TickMarkCircleViewDemoUITests.swift in Sources */,
+				833225C82502A8030073E5B9 /* TickMarkCircleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8332259A2502A7740073E5B9 /* PBXTargetDependency */ = {
+		833225C02502A7CE0073E5B9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 833225812502A7720073E5B9 /* TickMarkCircleViewDemo */;
-			targetProxy = 833225992502A7740073E5B9 /* PBXContainerItemProxy */;
-		};
-		833225A52502A7740073E5B9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 833225812502A7720073E5B9 /* TickMarkCircleViewDemo */;
-			targetProxy = 833225A42502A7740073E5B9 /* PBXContainerItemProxy */;
+			target = 833225B92502A7CE0073E5B9 /* TickMarkCircleViewDemoKit */;
+			targetProxy = 833225BF2502A7CE0073E5B9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -434,6 +399,7 @@
 		833225AD2502A7740073E5B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -453,6 +419,7 @@
 		833225AE2502A7740073E5B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -469,87 +436,60 @@
 			};
 			name = Release;
 		};
-		833225B02502A7740073E5B9 /* Debug */ = {
+		833225C42502A7CE0073E5B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = UZAPXQTVQ4;
-				INFOPLIST_FILE = TickMarkCircleViewDemoTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TickMarkCircleViewDemoKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.robertmryan.TickMarkCircleViewDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robertmryan.TickMarkCircleViewDemoKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TickMarkCircleViewDemo.app/TickMarkCircleViewDemo";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		833225B12502A7740073E5B9 /* Release */ = {
+		833225C52502A7CE0073E5B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = UZAPXQTVQ4;
-				INFOPLIST_FILE = TickMarkCircleViewDemoTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TickMarkCircleViewDemoKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.robertmryan.TickMarkCircleViewDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robertmryan.TickMarkCircleViewDemoKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TickMarkCircleViewDemo.app/TickMarkCircleViewDemo";
-			};
-			name = Release;
-		};
-		833225B32502A7740073E5B9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UZAPXQTVQ4;
-				INFOPLIST_FILE = TickMarkCircleViewDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.robertmryan.TickMarkCircleViewDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TickMarkCircleViewDemo;
-			};
-			name = Debug;
-		};
-		833225B42502A7740073E5B9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UZAPXQTVQ4;
-				INFOPLIST_FILE = TickMarkCircleViewDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.robertmryan.TickMarkCircleViewDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TickMarkCircleViewDemo;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -574,20 +514,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		833225AF2502A7740073E5B9 /* Build configuration list for PBXNativeTarget "TickMarkCircleViewDemoTests" */ = {
+		833225C32502A7CE0073E5B9 /* Build configuration list for PBXNativeTarget "TickMarkCircleViewDemoKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				833225B02502A7740073E5B9 /* Debug */,
-				833225B12502A7740073E5B9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		833225B22502A7740073E5B9 /* Build configuration list for PBXNativeTarget "TickMarkCircleViewDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				833225B32502A7740073E5B9 /* Debug */,
-				833225B42502A7740073E5B9 /* Release */,
+				833225C42502A7CE0073E5B9 /* Debug */,
+				833225C52502A7CE0073E5B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
